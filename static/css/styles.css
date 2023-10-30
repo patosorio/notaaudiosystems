@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "FuturaCM";
+    src: url("../fonts/futura/futura_medium_condensed_bt.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "arbotek";
+    src: url("../fonts/Arbotek/Arbotek-Thin.otf") format("opentype");
+}
+
+body{
+    background-color: grey;
+    overflow: hidden;
+}
+
+.background {
+    height: 100vh;
+    width: 100%;
+    background-image: url("../images/bg_nota.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.callout{
+    width: 100%;
+    margin: 0;
+}
+
+p.title{
+    font-family: "FuturaCM", sans-serif;
+    font-size: 2.8em;
+    color: #484745;
+    margin: 0;
+}
+
+p.sub{
+    font-family: "arbotek", sans-serif;
+    color: #81776C;
+    font-size: 1.6em;
+}
+
+p.mini{
+    font-family: "FuturaCM", sans-serif;
+    font-size: 1.5rem;
+    color: #81776C;
+    margin-bottom: 1px;
+}
+@media only screen and (max-width: 767px) {
+    i.arrow{
+        font-size: 25px;
+        color: #CECDCA;
+        padding-bottom: 10px;
+    }
+}
+
+a.mail{
+    font-size: 1rem;
+    color: #81776C;
+    text-decoration: none;
+    font-family: 'arbotek';
+}
